@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Video Downloader</title>
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Insta Downloader </h1>
+        </div>
+        
+        <div class="content">
+            <div class="tabs">
+                <div class="tab active" id="instagram-tab">Instagram</div>
+                <div class="tab" id="youtube-tab">YouTube</div>
+            </div>
+            
+            <!-- Instagram Content Types -->
+            <div class="instagram-content-types" id="instagram-content-types">
+                <div class="content-type active" id="posts-type">Posts</div>
+                <div class="content-type" id="stories-type">Stories</div>
+                <div class="content-type" id="reels-type">Reels</div>
+                <div class="content-type" id="highlights-type">Highlights</div>
+                <div class="content-type" id="profile-type">Profile Picture</div>
+                <div class="content-type" id="images-type">Images</div>
+            </div>
+            
+            <!-- YouTube Content Types -->
+            <div class="youtube-content-types" id="youtube-content-types" style="display: none;">
+                <div class="content-type active" id="regular-video">Regular Video</div>
+                <div class="content-type" id="shorts">Shorts</div>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label" id="url-label">Paste URL:</label>
+                <input type="text" class="input-field" id="url-input" placeholder="https://www.instagram.com/p/...">
+            </div>
+            
+            <div class="format-options">
+                <div class="format-option active" id="mp4-option">MP4</div>
+                <div class="format-option" id="mp3-option">MP3 (Audio)</div>
+            </div>
+            
+            <div class="action-wrapper">
+                <button class="action-button" id="check-button">Download</button>
+            </div>
+            
+            <!-- Result container (hidden initially) -->
+            <div class="result" id="result-container">
+                <div class="video-preview">
+                    <img alt="Video Preview" id="video-preview">
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title" id="video-title">Instagram media title</h3>
+                    <div class="video-meta">
+                        <span id="video-duration">00:45</span>
+                        <span id="video-quality">HD 1080p</span>
+                    </div>
+                    <div class="download-options">
+                        <button class="download-button" id="download-button">Download Video</button>
+                    </div>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="note">Note: This tool is for personal use only. Please respect copyright laws and terms of service.</p>
+        </div>
+    </div>
+    
+    <!-- Download burst effect container -->
+    <div class="download-burst" id="download-burst"></div>
+    <script src="index.js"></script>
+  
+
+</body>
+</html>
