@@ -1,16 +1,16 @@
 # Social Media Downloader 📥
 
-A simple tool to download content from Instagram.
+A simple tool to download content from Instagram & Youtbe.
 
 ## 🧩 Features
 - Download Instagram  reel & posts
-- - Download YouTube shorts & longvideo
+- Download YouTube shorts & long videos
 - User-friendly interface
-- Separate frontend and backend folders
+
 
 ## 🛠 Tech Stack
-- **Frontend**: [ React or HTML/CSS]
-- **Backend**: Python flask
+- **Frontend**: React & HTML/CSS
+- **Backend**: Python & flask
 
 ## 🚀 Getting Started
 
