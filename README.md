@@ -3,13 +3,14 @@
 A simple tool to download content from Instagram.
 
 ## 🧩 Features
-- Download Instagram posts
+- Download Instagram  reel & posts
+- - Download YouTube shorts & longvideo
 - User-friendly interface
 - Separate frontend and backend folders
 
 ## 🛠 Tech Stack
-- **Frontend**: [Add framework/library here, like React or HTML/CSS]
-- **Backend**: [Mention here, e.g., Node.js / Python / Express]
+- **Frontend**: [ React or HTML/CSS]
+- **Backend**: Python flask
 
 ## 🚀 Getting Started
 
